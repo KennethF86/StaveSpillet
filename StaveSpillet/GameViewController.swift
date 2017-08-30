@@ -55,7 +55,6 @@ class GameViewController: UIViewController{
         NameOfImagesTextField.autocorrectionType = .no
     
         
-        
         randomPhoto()
         
         // Do any additional setup after loading the view.
