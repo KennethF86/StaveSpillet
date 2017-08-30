@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34AD55DCF20F881AE2AD6DB8 /* Pods_StaveSpillet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A6A0AF7E105B460D178E485 /* Pods_StaveSpillet.framework */; };
+		761E8A52768BB2DD1C2FE209 /* Pods_StaveSpilletTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A296A80A29E64D138B6D3D08 /* Pods_StaveSpilletTests.framework */; };
+		79003EAC1EC1CBB9009014CB /* StaveSpilletTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79003EAB1EC1CBB9009014CB /* StaveSpilletTests.swift */; };
+		7907E9991EC1EE2C0054A9FC /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79FC13DE1EAF71E000A72C6F /* GameViewController.swift */; };
+		791AF70E1EB73ECE00114127 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 791AF70D1EB73ECE00114127 /* GoogleService-Info.plist */; };
+		79629CC81EAF547500FDD558 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79629CC71EAF547500FDD558 /* AppDelegate.swift */; };
+		79629CCA1EAF547500FDD558 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79629CC91EAF547500FDD558 /* ViewController.swift */; };
+		79629CCD1EAF547500FDD558 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79629CCB1EAF547500FDD558 /* Main.storyboard */; };
+		79629CD01EAF547500FDD558 /* StaveSpillet.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 79629CCE1EAF547500FDD558 /* StaveSpillet.xcdatamodeld */; };
+		79629CD21EAF547500FDD558 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79629CD11EAF547500FDD558 /* Assets.xcassets */; };
+		79629CD51EAF547500FDD558 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79629CD31EAF547500FDD558 /* LaunchScreen.storyboard */; };
+		79D101561EBB9A4800EF7B2A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D101551EBB9A4800EF7B2A /* LoginViewController.swift */; };
+		79FC13DF1EAF71E000A72C6F /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79FC13DE1EAF71E000A72C6F /* GameViewController.swift */; };
+		79FC13E11EAF734000A72C6F /* HighScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79FC13E01EAF734000A72C6F /* HighScoreViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79003EAE1EC1CBB9009014CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79629CBC1EAF547500FDD558 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79629CC31EAF547500FDD558;
+			remoteInfo = StaveSpillet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05B6F01C7D39CE91E707F5C9 /* Pods-StaveSpilletTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StaveSpilletTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-StaveSpilletTests/Pods-StaveSpilletTests.release.xcconfig"; sourceTree = "<group>"; };
+		5538F543CE89E5AD9EC9498F /* Pods-StaveSpillet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StaveSpillet.release.xcconfig"; path = "Pods/Target Support Files/Pods-StaveSpillet/Pods-StaveSpillet.release.xcconfig"; sourceTree = "<group>"; };
+		73E7750B1091E1C0697EA872 /* Pods-StaveSpillet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StaveSpillet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StaveSpillet/Pods-StaveSpillet.debug.xcconfig"; sourceTree = "<group>"; };
+		79003EA91EC1CBB8009014CB /* StaveSpilletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StaveSpilletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79003EAB1EC1CBB9009014CB /* StaveSpilletTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaveSpilletTests.swift; sourceTree = "<group>"; };
+		79003EAD1EC1CBB9009014CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		791AF70D1EB73ECE00114127 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		79629CC41EAF547500FDD558 /* StaveSpillet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StaveSpillet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79629CC71EAF547500FDD558 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		79629CC91EAF547500FDD558 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		79629CCC1EAF547500FDD558 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		79629CCF1EAF547500FDD558 /* StaveSpillet.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StaveSpillet.xcdatamodel; sourceTree = "<group>"; };
+		79629CD11EAF547500FDD558 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79629CD41EAF547500FDD558 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		79629CD61EAF547500FDD558 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79D101551EBB9A4800EF7B2A /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		79FC13DE1EAF71E000A72C6F /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		79FC13E01EAF734000A72C6F /* HighScoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HighScoreViewController.swift; sourceTree = "<group>"; };
+		8A6A0AF7E105B460D178E485 /* Pods_StaveSpillet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StaveSpillet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A296A80A29E64D138B6D3D08 /* Pods_StaveSpilletTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StaveSpilletTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2DC226E91BCF7FE093965C6 /* Pods-StaveSpilletTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StaveSpilletTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StaveSpilletTests/Pods-StaveSpilletTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79003EA61EC1CBB8009014CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				761E8A52768BB2DD1C2FE209 /* Pods_StaveSpilletTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79629CC11EAF547500FDD558 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34AD55DCF20F881AE2AD6DB8 /* Pods_StaveSpillet.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44D697DFF3ECB4BCE87968A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A6A0AF7E105B460D178E485 /* Pods_StaveSpillet.framework */,
+				A296A80A29E64D138B6D3D08 /* Pods_StaveSpilletTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		48790311DEB921B3F4A5105F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				73E7750B1091E1C0697EA872 /* Pods-StaveSpillet.debug.xcconfig */,
+				5538F543CE89E5AD9EC9498F /* Pods-StaveSpillet.release.xcconfig */,
+				B2DC226E91BCF7FE093965C6 /* Pods-StaveSpilletTests.debug.xcconfig */,
+				05B6F01C7D39CE91E707F5C9 /* Pods-StaveSpilletTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		79003EAA1EC1CBB9009014CB /* StaveSpilletTests */ = {
+			isa = PBXGroup;
+			children = (
+				79003EAB1EC1CBB9009014CB /* StaveSpilletTests.swift */,
+				79003EAD1EC1CBB9009014CB /* Info.plist */,
+			);
+			path = StaveSpilletTests;
+			sourceTree = "<group>";
+		};
+		79629CBB1EAF547500FDD558 = {
+			isa = PBXGroup;
+			children = (
+				79629CC61EAF547500FDD558 /* StaveSpillet */,
+				79003EAA1EC1CBB9009014CB /* StaveSpilletTests */,
+				79629CC51EAF547500FDD558 /* Products */,
+				48790311DEB921B3F4A5105F /* Pods */,
+				44D697DFF3ECB4BCE87968A9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		79629CC51EAF547500FDD558 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79629CC41EAF547500FDD558 /* StaveSpillet.app */,
+				79003EA91EC1CBB8009014CB /* StaveSpilletTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79629CC61EAF547500FDD558 /* StaveSpillet */ = {
+			isa = PBXGroup;
+			children = (
+				79629CC71EAF547500FDD558 /* AppDelegate.swift */,
+				79629CC91EAF547500FDD558 /* ViewController.swift */,
+				79629CCB1EAF547500FDD558 /* Main.storyboard */,
+				79D101551EBB9A4800EF7B2A /* LoginViewController.swift */,
+				79FC13E01EAF734000A72C6F /* HighScoreViewController.swift */,
+				79FC13DE1EAF71E000A72C6F /* GameViewController.swift */,
+				79629CD11EAF547500FDD558 /* Assets.xcassets */,
+				791AF70D1EB73ECE00114127 /* GoogleService-Info.plist */,
+				79629CD31EAF547500FDD558 /* LaunchScreen.storyboard */,
+				79629CD61EAF547500FDD558 /* Info.plist */,
+				79629CCE1EAF547500FDD558 /* StaveSpillet.xcdatamodeld */,
+			);
+			path = StaveSpillet;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79003EA81EC1CBB8009014CB /* StaveSpilletTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79003EB21EC1CBB9009014CB /* Build configuration list for PBXNativeTarget "StaveSpilletTests" */;
+			buildPhases = (
+				A02270663147D89D82BC43D9 /* [CP] Check Pods Manifest.lock */,
+				79003EA51EC1CBB8009014CB /* Sources */,
+				79003EA61EC1CBB8009014CB /* Frameworks */,
+				79003EA71EC1CBB8009014CB /* Resources */,
+				34A96C5FEBA04890871DD768 /* [CP] Embed Pods Frameworks */,
+				9A1BDFAAD8017ACE95D1EF49 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79003EAF1EC1CBB9009014CB /* PBXTargetDependency */,
+			);
+			name = StaveSpilletTests;
+			productName = StaveSpilletTests;
+			productReference = 79003EA91EC1CBB8009014CB /* StaveSpilletTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		79629CC31EAF547500FDD558 /* StaveSpillet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79629CD91EAF547500FDD558 /* Build configuration list for PBXNativeTarget "StaveSpillet" */;
+			buildPhases = (
+				CC79B8AE4B519D7253366CA5 /* [CP] Check Pods Manifest.lock */,
+				79629CC01EAF547500FDD558 /* Sources */,
+				79629CC11EAF547500FDD558 /* Frameworks */,
+				79629CC21EAF547500FDD558 /* Resources */,
+				E3B6539AF6FE92F95D78317B /* [CP] Embed Pods Frameworks */,
+				2170EC43EE296D432700CFB1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StaveSpillet;
+			productName = StaveSpillet;
+			productReference = 79629CC41EAF547500FDD558 /* StaveSpillet.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79629CBC1EAF547500FDD558 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					New,
+				);
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Kenneth Frandsen";
+				TargetAttributes = {
+					79003EA81EC1CBB8009014CB = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 79629CC31EAF547500FDD558;
+					};
+					79629CC31EAF547500FDD558 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 7NMGGAW623;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 79629CBF1EAF547500FDD558 /* Build configuration list for PBXProject "StaveSpillet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79629CBB1EAF547500FDD558;
+			productRefGroup = 79629CC51EAF547500FDD558 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79629CC31EAF547500FDD558 /* StaveSpillet */,
+				79003EA81EC1CBB8009014CB /* StaveSpilletTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79003EA71EC1CBB8009014CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79629CC21EAF547500FDD558 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79629CD51EAF547500FDD558 /* LaunchScreen.storyboard in Resources */,
+				791AF70E1EB73ECE00114127 /* GoogleService-Info.plist in Resources */,
+				79629CD21EAF547500FDD558 /* Assets.xcassets in Resources */,
+				79629CCD1EAF547500FDD558 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2170EC43EE296D432700CFB1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StaveSpillet/Pods-StaveSpillet-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34A96C5FEBA04890871DD768 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StaveSpilletTests/Pods-StaveSpilletTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A1BDFAAD8017ACE95D1EF49 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StaveSpilletTests/Pods-StaveSpilletTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A02270663147D89D82BC43D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CC79B8AE4B519D7253366CA5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E3B6539AF6FE92F95D78317B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StaveSpillet/Pods-StaveSpillet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79003EA51EC1CBB8009014CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7907E9991EC1EE2C0054A9FC /* GameViewController.swift in Sources */,
+				79003EAC1EC1CBB9009014CB /* StaveSpilletTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79629CC01EAF547500FDD558 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79D101561EBB9A4800EF7B2A /* LoginViewController.swift in Sources */,
+				79FC13DF1EAF71E000A72C6F /* GameViewController.swift in Sources */,
+				79FC13E11EAF734000A72C6F /* HighScoreViewController.swift in Sources */,
+				79629CCA1EAF547500FDD558 /* ViewController.swift in Sources */,
+				79629CD01EAF547500FDD558 /* StaveSpillet.xcdatamodeld in Sources */,
+				79629CC81EAF547500FDD558 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79003EAF1EC1CBB9009014CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79629CC31EAF547500FDD558 /* StaveSpillet */;
+			targetProxy = 79003EAE1EC1CBB9009014CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		79629CCB1EAF547500FDD558 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79629CCC1EAF547500FDD558 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		79629CD31EAF547500FDD558 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79629CD41EAF547500FDD558 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79003EB01EC1CBB9009014CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2DC226E91BCF7FE093965C6 /* Pods-StaveSpilletTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = StaveSpilletTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Kenneth.StaveSpilletTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StaveSpillet.app/StaveSpillet";
+			};
+			name = Debug;
+		};
+		79003EB11EC1CBB9009014CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05B6F01C7D39CE91E707F5C9 /* Pods-StaveSpilletTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = StaveSpilletTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Kenneth.StaveSpilletTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StaveSpillet.app/StaveSpillet";
+			};
+			name = Release;
+		};
+		79629CD71EAF547500FDD558 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		79629CD81EAF547500FDD558 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79629CDA1EAF547500FDD558 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73E7750B1091E1C0697EA872 /* Pods-StaveSpillet.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7NMGGAW623;
+				INFOPLIST_FILE = StaveSpillet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Kenneth.StaveSpillet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		79629CDB1EAF547500FDD558 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5538F543CE89E5AD9EC9498F /* Pods-StaveSpillet.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7NMGGAW623;
+				INFOPLIST_FILE = StaveSpillet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Kenneth.StaveSpillet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79003EB21EC1CBB9009014CB /* Build configuration list for PBXNativeTarget "StaveSpilletTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79003EB01EC1CBB9009014CB /* Debug */,
+				79003EB11EC1CBB9009014CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79629CBF1EAF547500FDD558 /* Build configuration list for PBXProject "StaveSpillet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79629CD71EAF547500FDD558 /* Debug */,
+				79629CD81EAF547500FDD558 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79629CD91EAF547500FDD558 /* Build configuration list for PBXNativeTarget "StaveSpillet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79629CDA1EAF547500FDD558 /* Debug */,
+				79629CDB1EAF547500FDD558 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		79629CCE1EAF547500FDD558 /* StaveSpillet.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				79629CCF1EAF547500FDD558 /* StaveSpillet.xcdatamodel */,
+			);
+			currentVersion = 79629CCF1EAF547500FDD558 /* StaveSpillet.xcdatamodel */;
+			path = StaveSpillet.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 79629CBC1EAF547500FDD558 /* Project object */;
+}
